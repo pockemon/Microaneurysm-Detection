@@ -1,0 +1,14 @@
+#Content of the package:
+
+doc/                                                    #Documenatation of the reference image database for diabetic retinopathy:
+resources/                                              #Resources related to the database:
+resources/toolkit/                                      #MATLAB evaluation script and example test method for DiaRetdb1
+resources/example_evalresults/                          #Ouput files of example algorithm described in documentation
+resources/traindatasets/                                #Traindata for consistent method evaluation
+resources/testdatasets/                                 #Testdata for consistent method evaluation
+resources/images/                                       #Database images
+resources/html/                                         #Html data for diaretdb1.htm
+resources/html/thumbnails                               #Thumbnail images for diaretdb1.htm
+resources/images/ddb1_groundtruths/                     #Groundtruth files for diaredb1 fundus images
+resources/images/ddb1_fundusmask/                       #Diaredb0 binary masks for training/testing
+resources/images/ddb1_fundusimages/ 		        #Diaretdb0 color fundus images 
