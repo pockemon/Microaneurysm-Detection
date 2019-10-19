@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     annotations-consensus.xml
+
+     This dataset of 50 images with microaneurysms and or hemorrhages
+     (named image0_training.jpg to image50_training.jpg) 
+     and the corresponding retinal specialist annotations are copyrighted material owned by the University of Iowa.
+     
+     The 50 images are from patients with diabetes without known diabetic retinopathy at the moment
+     of photography and represent a random sample of unique patients with 'red lesions' from a large
+     (> 10,000 patients) diabetic retinopathy screening program.
+     The images were taken with Topcon NW 100, NW 200 or Canon CR5-45NM 'non-mydriatic' cameras
+     at their native resolution and compression settings. 
+     The retinal specialist annotations were obtained from a combination of three ophthalmologists with
+     retinal fellowship training. 
+
+     The use of these images and the annotations is permitted according to the rules set forward
+     at roc.healthcare.uiowa.edu. Please look at this website for more details 
+     or contact michael-abramoff at uiowa.edu. 
+
+     Michael Abramoff
+     There is an "annotations-per-image" per image, and multiple "annotation" s per image.
+-->
+<set>
+  <annotations-per-image  imagename="image16_training.jpg">
+    <annotation>
+      <mark x="768" y="959">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image46_training.jpg">
+    <annotation>
+      <mark x="901" y="900">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image29_training.jpg">
+    <annotation>
+      <mark x="116" y="402">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-15">
+      <mark x="127" y="346">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-20">
+      <mark x="104" y="336">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="58" y="313">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="643" y="525">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="59" y="232">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-21">
+      <mark x="74" y="349">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="100" y="262">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="126" y="389">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="111" y="366">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="113" y="346">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-17">
+      <mark x="25" y="270">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="107" y="262">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="31" y="243">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="110" y="306">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="105" y="392">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="94" y="323">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="135" y="376">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="612" y="498">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="107" y="358">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="131" y="360">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-16">
+      <mark x="28" y="263">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image23_training.jpg">
+    <annotation name="roi-28">
+      <mark x="847" y="509">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-34">
+      <mark x="370" y="607">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-31">
+      <mark x="685" y="599">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-46">
+      <mark x="71" y="329">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="698" y="439">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-33">
+      <mark x="377" y="621">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-50">
+      <mark x="65" y="358">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-21">
+      <mark x="460" y="888">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="352" y="580">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-27">
+      <mark x="839" y="514">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-20">
+      <mark x="351" y="591">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="331" y="568">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-26">
+      <mark x="864" y="511">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-16">
+      <mark x="336" y="582">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-47">
+      <mark x="77" y="303">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="713" y="433">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-49">
+      <mark x="87" y="344">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-24">
+      <mark x="624" y="805">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="594" y="306">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-48">
+      <mark x="90" y="367">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-32">
+      <mark x="375" y="632">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-17">
+      <mark x="325" y="582">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-45">
+      <mark x="58" y="338">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-51">
+      <mark x="71" y="312">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-23">
+      <mark x="691" y="786">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-29">
+      <mark x="694" y="623">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-30">
+      <mark x="687" y="613">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="626" y="476">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-22">
+      <mark x="451" y="873">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-25">
+      <mark x="677" y="309">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="626" y="487">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image38_training.jpg">
+    <annotation>
+      <mark x="351" y="237">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="382" y="74">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="355" y="243">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="347" y="244">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="430" y="276">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="396" y="376">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image45_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image21_training.jpg">
+    <annotation name="roi-21">
+      <mark x="601" y="714">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="816" y="693">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image36_training.jpg">
+    <annotation>
+      <mark x="970" y="827">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="956" y="827">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="960" y="454">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image35_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image5_training.jpg">
+    <annotation>
+      <mark x="691" y="811">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="767" y="767">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="746" y="758">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="776" y="767">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image31_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image49_training.jpg">
+    <annotation name="roi-46">
+      <mark x="173" y="538">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-27">
+      <mark x="184" y="855">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="399" y="503">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-33">
+      <mark x="151" y="492">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-51">
+      <mark x="194" y="807">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="283" y="842">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="502" y="619">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-50">
+      <mark x="199" y="813">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="431" y="768">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-47">
+      <mark x="618" y="506">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-49">
+      <mark x="691" y="555">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="308" y="836">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-48">
+      <mark x="633" y="520">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-28">
+      <mark x="234" y="1092">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-36">
+      <mark x="106" y="774">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-31">
+      <mark x="542" y="704">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-35">
+      <mark x="190" y="474">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-26">
+      <mark x="181" y="1072">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="291" y="1005">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-34">
+      <mark x="194" y="485">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-29">
+      <mark x="259" y="1164">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-32">
+      <mark x="580" y="725">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-40">
+      <mark x="654" y="1061">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-25">
+      <mark x="256" y="1147">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-45">
+      <mark x="173" y="549">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-41">
+      <mark x="262" y="749">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image15_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image14_training.jpg">
+    <annotation>
+      <mark x="284" y="1059">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="292" y="1066">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image8_training.jpg">
+    <annotation>
+      <mark x="206" y="455">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="178" y="458">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="231" y="472">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="199" y="451">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image3_training.jpg">
+    <annotation>
+      <mark x="53" y="687">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="1284" y="714">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="1236" y="666">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1103" y="1167">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="1243" y="671">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1257" y="1002">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1078" y="1144">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="1281" y="703">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1094" y="1153">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1111" y="1157">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="623" y="1121">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image41_training.jpg">
+    <annotation>
+      <mark x="217" y="200">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image9_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image34_training.jpg">
+    <annotation name="roi-50">
+      <mark x="678" y="218">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-16">
+      <mark x="151" y="22">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="170" y="414">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="71" y="336">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="299" y="203">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="425" y="333">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="401" y="416">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="394" y="407">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-15">
+      <mark x="435" y="227">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="151" y="429">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="559" y="299">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="400" y="200">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="278" y="204">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-51">
+      <mark x="687" y="217">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="411" y="415">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-20">
+      <mark x="554" y="280">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-43">
+      <mark x="406" y="333">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="610" y="293">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="549" y="272">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="571" y="183">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-21">
+      <mark x="545" y="283">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="234" y="239">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-17">
+      <mark x="161" y="22">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="486" y="420">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="425" y="276">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image30_training.jpg">
+    <annotation>
+      <mark x="697" y="410">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1154" y="1005">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="629" y="403">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image25_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image13_training.jpg">
+    <annotation>
+      <mark x="385" y="331">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="119" y="210">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image39_training.jpg">
+    <annotation>
+      <mark x="342" y="185">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="161" y="253">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="352" y="141">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="353" y="149">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="368" y="141">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+   <annotation>
+      <mark x="362" y="186">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="154" y="257">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="396" y="144">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="408" y="333">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image22_training.jpg">
+    <annotation>
+      <mark x="311" y="1204">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="283" y="1195">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="191" y="1119">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image26_training.jpg">
+    <annotation>
+      <mark x="428" y="356">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="395" y="361">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="413" y="343">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="648" y="274">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="549" y="325">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="388" y="344">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="430" y="651">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="406" y="348">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="570" y="323">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="562" y="649">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="639" y="513">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="558" y="662">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image19_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image48_training.jpg">
+    <annotation>
+      <mark x="397" y="249">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="216" y="217">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="320" y="273">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="313" y="237">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image44_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image37_training.jpg">
+    <annotation name="roi-17">
+      <mark x="1146" y="736">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="977" y="605">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1094" y="588">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="902" y="1011">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="1142" y="1001">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="820" y="852">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="853" y="616">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="796" y="841">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="864" y="601">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="977" y="623">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="591" y="980">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="960" y="563">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="846" y="604">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image2_training.jpg">
+    <annotation>
+      <mark x="605" y="141">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="116" y="96">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+     <annotation>
+      <mark x="84" y="313">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="85" y="320">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="74" y="144">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image42_training.jpg">
+    <annotation>
+      <mark x="409" y="244">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="617" y="211">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image33_training.jpg">
+    <annotation>
+      <mark x="327" y="184">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="255" y="98">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image27_training.jpg">
+     <annotation>
+      <mark x="148" y="453">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="404" y="350">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="393" y="262">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="394" y="279">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image7_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image18_training.jpg">
+    <annotation name="roi-40">
+      <mark x="683" y="834">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-39">
+      <mark x="582" y="809">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-15">
+      <mark x="1299" y="780">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="1186" y="952">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-16">
+      <mark x="1060" y="729">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-34">
+      <mark x="1098" y="728">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1207" y="471">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1177" y="644">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-20">
+      <mark x="1328" y="503">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-33">
+      <mark x="1106" y="776">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-45">
+      <mark x="355" y="399">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="908" y="182">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="891" y="184">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-27">
+      <mark x="897" y="405">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-26">
+      <mark x="902" y="384">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="1188" y="940">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-31">
+      <mark x="1030" y="841">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="900" y="779">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-24">
+      <mark x="883" y="473">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1236" y="449">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="895" y="258">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-41">
+      <mark x="952" y="1103">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-32">
+      <mark x="1030" y="830">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="784" y="517">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-17">
+      <mark x="866" y="644">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="812" y="398">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-35">
+      <mark x="1156" y="689">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-25">
+      <mark x="884" y="452">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-42">
+      <mark x="209" y="582">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-21">
+     <mark x="873" y="593">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-22">
+      <mark x="863" y="449">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="725" y="963">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-47">
+      <mark x="169" y="539">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-43">
+      <mark x="158" y="620">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="965" y="169">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-23">
+      <mark x="877" y="432">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-44">
+      <mark x="226" y="833">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-48">
+      <mark x="134" y="517">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="924" y="177">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-46">
+      <mark x="155" y="539">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="916" y="780">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image4_training.jpg">
+    <annotation>
+      <mark x="401" y="466">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="376" y="459">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="369" y="396">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="388" y="474">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image43_training.jpg">
+    <annotation>
+      <mark x="432" y="883">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="420" y="881">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image20_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image32_training.jpg">
+    <annotation name="roi-32">
+      <mark x="933" y="838">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-15">
+      <mark x="163" y="810">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1229" y="576">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="311" y="704">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-31">
+      <mark x="949" y="860">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="176" y="586">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-24">
+      <mark x="256" y="657">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1214" y="579">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="1349" y="667">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="181" y="703">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-26">
+      <mark x="53" y="875">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="57" y="775">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="192" y="711">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-25">
+      <mark x="185" y="810">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-27">
+      <mark x="39" y="874">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image6_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image1_training.jpg">
+    <annotation>
+      <mark x="536" y="247">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image11_training.jpg">
+    <annotation name="roi-29">
+      <mark x="462" y="462">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="506" y="300">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-16">
+      <mark x="504" y="476">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="485" y="256">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-20">
+      <mark x="314" y="375">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="501" y="273">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="110" y="479">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="442" y="332">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-17">
+      <mark x="512" y="473">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="139" y="282">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-21">
+      <mark x="288" y="344">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-15">
+      <mark x="343" y="217">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="560" y="258">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-25">
+      <mark x="76" y="373">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="467" y="258">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="281" y="362">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="321" y="210">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-31">
+      <mark x="257" y="106">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-22">
+      <mark x="306" y="364">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="238" y="469">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-27">
+      <mark x="248" y="438">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-26">
+      <mark x="111" y="412">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="256" y="164">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-28">
+      <mark x="473" y="469">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="198" y="346">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="267" y="353">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="318" y="91">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-30">
+      <mark x="492" y="332">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="334" y="84">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="436" y="336">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image40_training.jpg">
+    <annotation>
+      <mark x="631" y="686">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="647" y="647">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="492" y="820">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="614" y="639">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="675" y="693">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-18">
+      <mark x="139" y="549">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="507" y="820">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="635" y="949">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-10">
+      <mark x="625" y="883">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="638" y="639">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="576" y="664">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="574" y="646">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image12_training.jpg">
+    <annotation name="roi-18">
+      <mark x="167" y="204">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-17">
+      <mark x="174" y="196">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="541" y="406">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="253" y="349">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="329" y="177">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-15">
+      <mark x="209" y="412">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-13">
+      <mark x="151" y="511">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="481" y="496">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-16">
+      <mark x="203" y="412">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="414" y="548">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-19">
+      <mark x="163" y="226">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="407" y="521">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-12">
+      <mark x="165" y="531">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-11">
+      <mark x="163" y="516">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="539" y="419">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="346" y="185">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="220" y="201">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation name="roi-14">
+      <mark x="140" y="518">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="319" y="197">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image17_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image0_training.jpg">
+  </annotations-per-image>
+  <annotations-per-image  imagename="image47_training.jpg">
+    <annotation name="roi-10">
+      <mark x="653" y="1211">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="636" y="1170">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="636" y="1181">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="653" y="1192">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="611" y="1214">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="644" y="1175">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image10_training.jpg">
+    <annotation>
+      <mark x="259" y="18">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image24_training.jpg">
+    <annotation>
+      <mark x="383" y="1165">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="364" y="1098">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="390" y="1174">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+  <annotations-per-image  imagename="image28_training.jpg">
+    <annotation>
+      <mark x="771" y="686">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="329" y="224">
+        <radius>10</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="580" y="585">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+    <annotation>
+      <mark x="259" y="698">
+        <radius>5</radius>
+      </mark>
+      <lesion>microaneurysm</lesion>
+      <probability>1.0</probability>
+    </annotation>
+  </annotations-per-image>
+</set>
